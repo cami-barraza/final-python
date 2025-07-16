@@ -141,7 +141,7 @@ Producto actualizado.
 - `inventario.db`: Base de datos SQLite (se crea automáticamente al ejecutar el programa).
 - `README.md`: Este archivo con la descripción del proyecto.
 
-## 👩‍💻 Autora
+## 👩‍💻 Alumna
 
 Camila Belén Barraza
 
