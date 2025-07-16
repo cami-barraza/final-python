@@ -4,6 +4,17 @@
 
 Este proyecto es una aplicación de consola desarrollada en Python que permite gestionar productos usando una base de datos SQLite.
 
+## 👾 Características
+- **CRUD completo** sobre la tabla `productos` de SQLite.
+- Gestión de **errores** (entradas inválidas, problemas de conexión, inyección SQL).
+- **Validaciones** de datos (nombre no vacío, precio entero positivo, ID numérico).
+- **Búsqueda** por ID exacto o por nombre (coincidencia parcial).
+- **Listado** colorido de productos:  
+  - IDs y nombres con formato (mayúsculas/minúsculas).  
+  - Categorías en mayúsculas.  
+  - Mensajes en distintos colores para facilitar la lectura.
+- **Interfaz de menú** dinámica y cíclica para navegación sencilla.
+
 ## 📌 Funcionalidades
 
 - Agregar productos
@@ -38,6 +49,8 @@ Este proyecto es una aplicación de consola desarrollada en Python que permite g
 ## 📁 Archivos incluidos
 
 - `main.py`: Código principal del programa.
+- `manu.py`: Código del menú CRUD.
+- `utils.py`: Las funciones principales.
 - `inventario.db`: Base de datos SQLite (se crea automáticamente al ejecutar el programa).
 - `README.md`: Este archivo con la descripción del proyecto.
 
