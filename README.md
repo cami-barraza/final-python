@@ -37,7 +37,7 @@ Ingrese el número de la opción y siga las instrucciones en pantalla.
 ### Opciones disponibles
 
 1. **Agregar producto** 
-Solicita nombre, categoría y precio. Valida entradas y agrega a la base de datos con parámetros seguros (?).
+Solicita nombre, categoría y precio. Valida entradas y agrega a la base de datos con parámetros seguros.
 
 2. **Mostrar productos** 
 Lista todos los productos con formato:
@@ -47,9 +47,9 @@ Lista todos los productos con formato:
 ```
 
 3. **Buscar producto** 
-Por ID exacto (si el término es numérico). 
-Por nombre parcial (LIKE %término%). 
-Muestra la cantidad de resultados y sus detalles.
+- Por ID exacto (si el término es numérico). 
+- Por nombre parcial (%término%). 
+- Muestra la cantidad de resultados y sus detalles.
 
 4. **Eliminar producto** 
 Muestra primero el listado. Solicita ID a eliminar. 
